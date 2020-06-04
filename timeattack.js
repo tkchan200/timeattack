@@ -43,7 +43,7 @@ function timestop(){
             elem2.innerHTML = "あなたの結果は" + resulttime +"秒でした。"+"まずまずの反射神経ですね";
         break;
         case 0.6< resulttime&&resulttime<=2.0:
-            elem2.innerHTML = "あなたの結果は" + resulttime +"秒でした。"+"がんばりましょう";
+            elem2.innerHTML = "あなたの結果は" + resulttime +"秒でした。";
         break;
         case 2.0<resulttime:
             elem2.innerHTML = "あなたの結果は" + resulttime +"秒でした。"+"真面目にやってくださいw";
